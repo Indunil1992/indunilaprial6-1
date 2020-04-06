@@ -1,0 +1,8 @@
+{
+  "name": "indunilAprial6-1",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "aws-sdk": "2.644.0"
+  }
+}

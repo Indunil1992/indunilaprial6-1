@@ -1,0 +1,169 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "fb06f10a-1018-42b6-977b-2072b4f28487": {
+        "id": "fb06f10a-1018-42b6-977b-2072b4f28487",
+        "parent": null,
+        "name": "indunilAprial6-1.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indunilAprial6-1.js",
+        "cursor": {
+          "lineNumber": 18,
+          "column": 16
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "indunilAprial61"
+        },
+        "triggers": [
+          {
+            "resourceName": "sqsKTestSQS",
+            "config": {
+              "BatchSize": "10"
+            }
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "fb06f10a-1018-42b6-977b-2072b4f28487"
+    ],
+    "currentFileId": "fb06f10a-1018-42b6-977b-2072b4f28487",
+    "resources": {
+      "snsusEast1udithTest": {
+        "name": "snsusEast1udithTest",
+        "type": "SNS",
+        "config": {
+          "topicMode": 1,
+          "topicName": "udith-test",
+          "topicArn": "arn:aws:sns:us-east-1:318300609668:udith-test",
+          "topicRegion": "us-east-1",
+          "snsType": 0,
+          "subscriptions": []
+        }
+      },
+      "s3as2TestLahiru": {
+        "name": "s3as2TestLahiru",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "as2-test-lahiru"
+          }
+        }
+      },
+      "sqsKTestSQS": {
+        "name": "sqsKTestSQS",
+        "type": "SQS",
+        "config": {
+          "mode": 1,
+          "existing": true,
+          "name": "KTestSQS",
+          "url": "https://sqs.us-east-1.amazonaws.com/318300609668/KTestSQS",
+          "selectedRegion": "us-east-1",
+          "deliveryDelay": "0",
+          "deliveryDelayUnit": "seconds",
+          "queueType": "standardQueue",
+          "defaultVisibilityTimeout": "30",
+          "defaultVisibilityTimeoutUnit": "seconds",
+          "messageRetentionPeriod": "345600",
+          "messageRetentionPeriodUnit": "seconds",
+          "maximumMessageSize": 256,
+          "receiveMessageWaitTime": "0",
+          "queueARN": "arn:aws:sqs:us-east-1:318300609668:KTestSQS"
+        }
+      },
+      "snsusEast1amplifycodecommittopic": {
+        "name": "snsusEast1amplifycodecommittopic",
+        "type": "SNS",
+        "config": {
+          "topicMode": 1,
+          "topicName": "amplify_codecommit_topic",
+          "topicArn": "arn:aws:sns:us-east-1:318300609668:amplify_codecommit_topic",
+          "topicRegion": "us-east-1",
+          "snsType": 0,
+          "subscriptions": []
+        }
+      },
+      "apigusEast1TestIndunilApiany": {
+        "name": "apigusEast1TestIndunilApiany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "Test Indunil Api",
+          "apiId": "098ff0lfdg",
+          "endpointType": "EDGE",
+          "rootResourceId": "ntzpitphk5",
+          "existingResources": {
+            "/qa": "boe2vf",
+            "/": "ntzpitphk5",
+            "/qa/indu": "wirmir"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "ntzpitphk5",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test",
+          "stageDeploymentId": "1psb7t",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "indunilAprial6-1",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1586159294961
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "indunilaprial6-1",
+      "url": "https://github.com/Indunil1992/indunilaprial6-1"
+    }
+  }
+}
